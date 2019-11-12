@@ -1,13 +1,7 @@
-
+whom = "Chris"
 # How do I define a function?
 def greet(whom):
     print(f"Hayyyy {whom.upper()}")
-
-
-# cats = ["Oakley", "Milla"]
-# for cat in cats:
-#     # print(f"Hayyyy {cat.upper()}")
-#     greet(cat)
 
 # How do I use a function?
 greet("Bob")
@@ -19,3 +13,4 @@ greet("Bob")
 # Yes, they are required if there were arguments included in the definition of the function.
 
 # Can I access arguments outside the body of a function?
+print(whom)
