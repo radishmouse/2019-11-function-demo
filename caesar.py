@@ -20,6 +20,7 @@ def convert_sentence(sentence):
     # use convert_letter here!
     return new_sentence
 
+print(convert_sentence("you"))
 # sentence = f"{convert_letter('y')} {convert_letter('o')}"
 # the_new_letter = "n"
 # print(sentence)
