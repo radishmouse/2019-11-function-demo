@@ -14,7 +14,13 @@ def convert_letter(letter, rotate_by=13):
     # 3. Result
     return new_letter
 
-sentence = f"{convert_letter('y')} {convert_letter('o')}"
+def convert_sentence(sentence):
+    new_sentence = ""
+
+    # use convert_letter here!
+    return new_sentence
+
+# sentence = f"{convert_letter('y')} {convert_letter('o')}"
 # the_new_letter = "n"
-print(sentence)
+# print(sentence)
 # convert_letter("a", 15)
